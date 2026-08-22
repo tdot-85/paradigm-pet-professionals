@@ -190,3 +190,36 @@ header {
     border-radius: 4px;
 }
 
+/* ==== PET CATEGORY CARDS ==== */
+
+.pet-categories {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    background-color: #ffffff;
+    justify-content: center;
+}
+
+.card {
+    background-color: #BDBDBD;
+    border-radius: 8px;
+    padding: 24px;
+    flex: 1px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card h3 {
+    color: #003B6D;
+    margin-bottom: 12px;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 16px;
+    background-color: #003B6D;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
