@@ -245,3 +245,38 @@ header {
 
 /* ====FOOTER==== */
 
+footer {
+    background-color: #003B6D;
+    color: #BDBDBD;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 16px;
+}
+
+.footer-links ul li a {
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+.footer-linksul li a:hover {
+    color: #ffffff;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.social-media img {
+    height: 32px;
+    width: auto;
+}
