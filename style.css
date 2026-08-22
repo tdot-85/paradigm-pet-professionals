@@ -116,3 +116,15 @@ header {
     border-radius: 4px;
 }
 
+/* ==== ABOUT SECTION ==== */
+
+.about {
+    background-color: #BDBDBD;
+    padding: 40px;
+    color: #003B6D;
+}
+
+.about p {
+    margin-bottom: 16px;
+}
+
