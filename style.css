@@ -470,3 +470,60 @@ footer {
     margin-bottom: 6px;
 }
 
+/* ==== CONSULTATION FORM ==== */
+
+.consultation-form-section {
+    display:flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f2f2f2;
+}
+
+.consultation-form {
+    background-color:#ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: o 2px 6px rgba(0,0,0.1);
+}
+
+.consultation-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #003B6D;
+    font-weight: bold;
+}
+
+.consultation-form input,
+.consultation-form select,
+.consultation-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    font-size: 14px;
+    color:#676767;
+    box-sizing: border-box;
+}
+
+.consultation-form textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    background-color: #6699CC;
+    color: #ffffff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #003B6D;
+}
