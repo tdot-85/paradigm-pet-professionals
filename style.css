@@ -373,3 +373,14 @@ footer {
     object-fit: cover;
     border-radius: 8px;
 }
+
+/* ==== PAGE INTRO ==== */
+
+.page-intro {
+    background-color: #ffffff;
+    padding: 40px;
+    color:#676767;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
