@@ -48,7 +48,25 @@
 
                 <label for="phone">Phone Number</label>
                 <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                
+                <label for="pet-type">Pet Type</label>
+                <select id="pet-type" name="pet-type" required>
+                    <option value="" disabled selected>Select your pet type</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="bird">Bird</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="preferred-date">Preferred Consultation Date</label>
+                <input type="date" id="preferred-date" name="preferred-date" required>
+
+                <label for="message">Tell Us About Your Pet</label>
+                <textarea id="message" name="message" rows="5" placeholder="Share your pet's age, breed and any specific concerns you'd like to discuss"></textarea>
+
+                <button type="submit" class="submit-btn">Submit Request</button>
             </form>
+
         </section>
 
         <section class="cta-banner">
